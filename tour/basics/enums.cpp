@@ -24,7 +24,7 @@ TrafficLight& operator++(TrafficLight& t)
 
 int main()
 {
-	Color col = Color::red;
+	// Color col = Color::red;
 	TrafficLight light = TrafficLight::red;
 	TrafficLight next = light;
 
@@ -35,6 +35,4 @@ int main()
 
 	++next;
 	cout << static_cast<underlying_type<TrafficLight>::type>(next) << endl;
-
 }
-
