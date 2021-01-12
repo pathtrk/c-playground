@@ -90,5 +90,7 @@ dkms.conf
 *.app
 
 .python-version
+*.pcm
+main
 
 
