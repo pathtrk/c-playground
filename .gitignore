@@ -89,4 +89,6 @@ dkms.conf
 *.out
 *.app
 
+.python-version
+
 
