@@ -30,11 +30,15 @@ class complex {
             re -= z.re; im -= z.im; return *this;
         }
 
-        complex& operator*=(complex);
-        // defined out-of-class somewhere
+        complex& operator*=(complex)
+        {
+			// defined out-of-class somewhere
+		}
 
-        complex& operator/=(complex);
-        // defined out-of-class somewhere
+        complex& operator/=(complex)
+        {
+			// defined out-of-class somewhere
+		}
 };
 
 
@@ -71,5 +75,3 @@ bool operator!=(complex a, complex b)
 {
     return !(a == b);
 }
-
-
